@@ -44,7 +44,7 @@ less.onclick = () => {
 
 /* skills reload */
 skillsClass = document.querySelectorAll(".skills-main .skills-bar .bar span");
-const skillsArray = ['html', 'css', 'js', 'react', 'bootstrap', 'git', 'mongodb', 'node', 'linux'];
+const skillsArray = ['html', 'css', 'js', 'react', 'bootstrap', 'git', 'mongodb', 'node', 'linux','next'];
 let i = 0;
 window.addEventListener('scroll', () => {
   scrollPosition = window.scrollY;

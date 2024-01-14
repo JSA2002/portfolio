@@ -685,6 +685,20 @@ span {
     }
 }
 
+.skills-bar .bar .next {
+    width: 70%;
+    animation: next 3s;
+}
+
+@keyframes next {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
 .container {
     width: 100%;
     min-height: 90vh;
